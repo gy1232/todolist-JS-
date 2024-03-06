@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Momentum App</title>
+    <link rel="stylesheet" href="/CSS/style.css" />
+  </head>
+  <body>
+    <h2 id="clock">00:00</h2>
+    <form class="hidden" id="login_form">
+      <input
+        required
+        maxlength="15"
+        type="text"
+        placeholder="이름을 입력해주세요"
+      />
+      <button>Log In</button>
+    </form>
+    <!-- <a href="https://nomadcoders.co">Go To courses</a> -->
+
+    <h1 class="hidden" id="greeting"></h1>
+    <form id="todo_form">
+      <input type="text" placeholder="할 일을 적어주세요" required />
+    </form>
+    <ul id="todo_list"></ul>
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+    <script src="/JS/Greeting.js"></script>
+    <script src="/JS/Clock.js"></script>
+    <script src="/JS/Quotes.js"></script>
+    <script src="/JS/Background.js"></script>
+    <script src="/JS/Todo.js"></script>
+    <script src="/JS/Weather.js"></script>
+  </body>
+</html>
